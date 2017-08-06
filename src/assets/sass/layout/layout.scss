@@ -1,0 +1,19 @@
+@import 'header/header';
+@import 'sidebar/sidebar';
+
+@include scrollbars(.5em, $purple-dark, rgba(0, 0, 0, 0));
+
+html, body{
+    display: flex;
+    width: 100%;
+}
+
+#theme{
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+    &.purple{
+        @include bg-image('bg-purple.jpg');
+    }
+}

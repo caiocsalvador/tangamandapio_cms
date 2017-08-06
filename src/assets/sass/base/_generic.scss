@@ -1,0 +1,32 @@
+a{
+	@include animate(all, 320ms);
+	&:hover,
+	&:before,
+	&:after{
+		@include animate(all, 320ms);
+		text-decoration: none;
+		img{
+			@include animate(all, 320ms);
+		}
+	}
+	img{
+		@include animate(all, 320ms);
+	}
+}
+
+ul{
+    list-style: none;
+    li{
+    	list-style: none;
+    }
+}
+
+h1, h2, h3, h4, h5{
+    font-family: $title-font;
+    color: $text-color;
+}
+
+p, li, a, span, i, b, time, small, caption{
+    font-family: $body-font;
+    color: $text-color;
+}
