@@ -22,11 +22,9 @@ ul{
 }
 
 h1, h2, h3, h4, h5{
-    font-family: $title-font;
     color: $text-color;
 }
 
 p, li, a, span, i, b, time, small, caption{
-    font-family: $body-font;
     color: $text-color;
 }

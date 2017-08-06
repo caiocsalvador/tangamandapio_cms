@@ -1,0 +1,28 @@
+@import '../../../assets/sass/conf';
+
+aside{
+    position: fixed;
+    width: 230px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: $bg-header;
+    padding-top: 80px;
+    ul{
+        li{
+            color: $white;
+            width: 100%;
+            a{
+                color: $white;
+            }
+        }
+    }
+}
+/*
+============================================
+                PURPLE
+============================================
+*/
+
+:host(.purple) {
+}

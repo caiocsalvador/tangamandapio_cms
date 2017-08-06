@@ -1,0 +1,26 @@
+@import '../../../assets/sass/conf';
+@import '../../../assets/sass/layout/header/header';
+
+
+
+/*
+============================================
+                PURPLE
+============================================
+*/
+
+:host-context(#theme.purple){
+    header {
+        h1 {
+            span {
+                color: $purple;
+            }
+        }
+        .user {
+            &:hover {
+                background-color: $purple;
+            }
+        }
+    }
+}
+
