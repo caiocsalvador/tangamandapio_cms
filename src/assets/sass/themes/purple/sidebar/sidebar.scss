@@ -1,0 +1,25 @@
+aside {
+    ul {
+        li {
+            a {
+                &:hover {
+                    span {
+                        color: $purple-light;
+                    }
+                    i {
+                        color: $purple-light;
+                    }
+                    small {
+                        color: $purple-light;
+                    }
+                }
+                &.active {
+                    background-color: $purple-light;
+                    &:hover {
+                        background-color: $purple;
+                    }
+                }
+            }
+        }
+    }
+}

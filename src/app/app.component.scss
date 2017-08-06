@@ -4,14 +4,6 @@
     display: flex;
     width: 100%;
 }
-
-@include scrollbars(.5em, $purple-dark, rgba(0, 0, 0, 0));
-
-html, body{
-    display: flex;
-    width: 100%;
-}
-
 #theme{
     background-position: center;
     background-repeat: no-repeat;

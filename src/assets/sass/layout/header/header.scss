@@ -56,7 +56,6 @@ header {
             @include animate(all, 320ms);
         }
         &:hover {
-            background-color: $purple;
             @include animate(all, 320ms);
         }
     }

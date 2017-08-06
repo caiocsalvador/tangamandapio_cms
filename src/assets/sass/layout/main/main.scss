@@ -1,0 +1,30 @@
+.container-content{
+    padding: 20px;
+    padding-left: 250px;
+}
+.page-title{
+    color: $white;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+.breadcrumb{
+    background-color: transparent;
+    padding: 0px;
+    .breadcrumb-item{
+        color: $white;
+        font-weight: 500;
+        a{
+            color: $white;
+        }
+        &.active{
+            color: $purple-dark;
+        }
+        &:before{
+            color: $white;
+        }
+    }
+}
+.box{
+    padding: 20px;
+    @include bg-translucent-light(0.2);
+}

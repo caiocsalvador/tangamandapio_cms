@@ -1,0 +1,12 @@
+header {
+    h1 {
+        span {
+            color: $purple-light;
+        }
+    }
+    .user {
+        &:hover {
+            background-color: $purple-light;
+        }
+    }
+}
