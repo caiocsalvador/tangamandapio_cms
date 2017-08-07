@@ -17,6 +17,15 @@ aside {
                     background-color: $purple-light;
                     &:hover {
                         background-color: $purple;
+                        span {
+                            color: $white;
+                        }
+                        i {
+                            color: $white;
+                        }
+                        small {
+                            color: $white;
+                        }
                     }
                 }
             }
